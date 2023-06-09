@@ -1,0 +1,56 @@
+.getstarted-wrap {
+    width: 100%;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .getStarted {
+        width: 1200px;
+        height: 256px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #4161df;
+        border-radius: 15px;
+        margin-top: 50px;
+
+        h1 {
+            color: white;
+        }
+
+        p {
+            padding: 30px;
+            color: rgb(198, 201, 204);
+        }
+
+        .btn-get {
+            width: 125px;
+            height: 43px;
+            border-radius: 10px;
+            border: 2px solid white;
+            background-color: #5a73d7;
+            color: white;
+            cursor: pointer;
+
+
+
+        }
+
+        .btn-get:hover {
+            transform: scale(1.1);
+
+        }
+    }
+
+    @media (max-width:922px) {
+        .getStarted {
+            justify-content: center;
+            margin-left: 20px;
+            width: calc(100% - 80px);
+        }
+
+    }
+}

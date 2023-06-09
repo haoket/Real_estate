@@ -1,0 +1,37 @@
+* {
+
+  margin: -5px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  transition: 0.5s ease-in-out;
+
+
+}
+
+
+.content {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+
+  .box-blur {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(175, 166, 155);
+    z-index: 100;
+    top: 10px;
+    left: 0px;
+    filter: blur(100px);
+
+
+
+
+  }
+
+}
